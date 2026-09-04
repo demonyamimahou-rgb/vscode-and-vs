@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afton Robotics, LLC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+
+        body {
+            background: url('images/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .custom-card {
+            background: rgba(0, 0, 0, 0.75);
+            border-radius: 8px;
+            padding: 30px;
+            margin-top: 100px;
+
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <audio autoplay controls hidden src="audio/fnaf.mp3"></audio>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-secondary navbar-light fixed-top">
+            <div class="container-fluid">
+                <img src="images/Bad-Robot-Productions-Logo.png" alt="Avatar Logo" style="width:40px;"
+                    class="rounded-pill">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#products-section">Products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Container (Pushes footer down with flex-grow-1) -->
+    <main class="main-content container my-5 text-center flex-grow-1">
+        <div class="custom-card mx-auto col-lg-8">
+            <div class="card-text-container">
+                <h2 class="about-title text-warning mb-3">About Afton Robotics</h2>
+                <p class="about-text lead text-light">
+                    Founded on groundbreaking innovation and advanced engineering, Afton Robotics, LLC develops
+                    premier animatronic entertainment. We bridge artificial intelligence and lifelike structural
+                    design to create unforgettable immersive experiences. Our state-of-the-art characters are built
+                    to captivate audiences, bringing endless joy and fascinating memories to venues across the
+                    country. Step into the future of interactive entertainment with us—where fantasy truly comes to
+                    life.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Fixed, High-Contrast Footer -->
+    <footer class="bg-dark text-white py-4 mt-auto border-top border-secondary"
+        style="position: relative; z-index: 10;">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start">
+
+                <!-- Left Side: Copyright & Clear Light Gray Legal Links -->
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="mb-1 text-white fw-bold">2026 Afton Robotics, LLC. All rights reserved.</p>
+                    <small>
+                        <a href="/privacy" class="text-light text-decoration-underline me-3 opacity-75">Privacy
+                            Policy</a>
+                        <a href="/terms" class="text-light text-decoration-underline opacity-75">Terms of Service</a>
+                    </small>
+                </div>
+
+                <!-- Right Side: Contact Channels (Bright text colors) -->
+                <div class="col-md-6 text-md-end text-light small">
+                    <p class="mb-1 text-white">
+                        <span class="text-danger me-1">📍</span>Session Road, Baguio City, 2600 Benguet
+                    </p>
+                    <p class="mb-0">
+                        <span class="text-info me-1">📧</span><a href="mailto:banaylanz8@gmail.com"
+                            class="text-light text-decoration-none">banaylanz8@gmail.com</a>
+                        <span class="text-muted mx-2">|</span>
+                        <span class="text-success me-1">📞</span><a href="tel:+639158462526"
+                            class="text-light text-decoration-none">+63 915 846 2526</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
